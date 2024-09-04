@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Merriweather;
+}
+
+:root {
+    --Green: #199245;
+    --Black: #1F1A17;
+    --Brown: #665F10;
+    --Red: #F8222C;
+    --Yellow: #FFF500;
+}
+
+html {
+    background-color: var(--Yellow);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--Green);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--Red);
+    border: 2px solid var(--Black);
+    border-radius: 5px;
+    padding: 2px;
+    background-color: var(--Yellow);
+}
+
+iframe {
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+}
+
+.Buy {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--Green);
+    border: 2px solid var(--Black);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.Buy img {
+    width: 150px;
+}
+
+.Buy input {
+    height: 50px;
+    width: 100px;
+    border: 2px solid var(--Black);
+    border-radius: 5px;
+    background-color: var(--Yellow);
+    color: var(--Red);
+}
+
+#Loner {
+    border: 2px solid var(--Black);
+    border-radius: 5px;
+    background-color: var(--Green);
+    margin-top: 10px;
+    text-align: center;
+    color: var(--Black);
+    font-size: 30px;
+}
+
+#Menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    grid-gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-size {
+    width: 50px;
+}
+
+#Menu > * {
+    border: 2px solid var(--Black);
+    border-radius: 5px;
+    padding: 10px;
+    background-color: var(--Green);
+    color: var(--Black);
+    justify-content: center;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+
+}
+
+#About-Us {
+    border: 2px solid var(--Green);
+    background-color: #199245;
+}
+
+#About-Us h1, #About-Us p {
+    padding: 10px;
+    color: var(--Black);
+    background-color: var(--Yellow);
+    width: 70%;
+    height: 70%;
+}
+
+#About-Us p {
+    width: 100%;
+    font-size: 12px;
+    border-radius: 5px;
+        border: 2px solid var(--Black);
+}
+
+#About-Us h1 {
+    border: 2px solid var(--Black);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
