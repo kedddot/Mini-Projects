@@ -1,0 +1,225 @@
+:root {
+    --main-black: black;
+    --light-grey: #1F1F1F; 
+    --dark-grey: #121212;
+    --white: #FFFFFF;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: var(--white);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: 100%;
+    padding: 1rem;
+    position: fixed;
+}
+
+#spotifyLogo {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 100px;
+}
+
+/* This is #mid */
+
+#mid {
+    display: flex;
+}
+
+
+#homeButtonCase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-grey);
+    width: 2.5rem;
+    height: 2.5rem;
+    align-items: center;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+
+#homeButton {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+#searchBar {
+    background-color: var(--light-grey);
+    color: var(--light-grey);
+    width: 25rem;
+    height: 2.5rem;
+    margin-left: 5px;
+    border-radius: 2rem;
+    padding: 5px;
+    font-family: "Poppins";
+}
+
+/* This is #account */
+
+#account {
+    display: flex;
+    width: 10rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px;
+    font-family: "Poppins";
+}
+
+#logIn {
+    height: 2.5rem;
+    width: 5rem;
+    border-radius: 20%;
+    text-align: center;
+    padding: 7px;
+    color: var(--light-grey);
+    background-color: var(--white);
+    margin-left: 5px;
+}
+
+/* This is sideBar */
+#sideBar {
+    background-color: var(--dark-grey);
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    height: 34rem;
+    width: 18rem;
+    left: 0.5rem;
+    bottom: 1rem;
+    padding: 9px;
+}
+
+#yourLibrary {
+    height: 30%;
+    width: 100%;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: #282828;
+}
+
+#yourLibrary div {
+    margin-top: 30px;
+    padding: 15px;
+    border-radius: 3%;
+    background-color: var(--light-grey);
+    font-size: 0.9rem;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+    color: var(--white);
+}
+
+#yourLibrary div p {
+    margin-top: 4px;
+    text-align: center;
+    color: var(--main-black);
+    background-color: var(--white);
+    border-radius: 5%;
+    width: 8rem;
+}
+
+#podcast {
+    height: 30%;
+    width: 100%;
+    background-color: var(--light-grey);
+    border-radius: 3%;
+    padding: 15px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+#podcast p {
+    text-align: center;
+    border-radius: 5%;
+    background-color: var(--white);
+    color: var(--main-black);
+    font-family: "Poppins";
+    font-weight: 400;
+    margin-top: 5px;
+    width: 8rem;
+}
+
+#aboutPage {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "Poppins";
+    font-weight: 100;
+}
+
+#language {
+    display: block;
+    border-radius: 5%;
+    background-color: var(--light-grey);
+    width: 4rem;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 100;
+}
+/* This is mainSection */
+#mainSection {
+    padding: 10px;
+    position: relative;
+    top: 4.5rem;
+    left: 20rem;
+    height: 34rem;
+    width: 58rem;
+    border-radius: 3%;
+    background-color: var(--light-grey);
+}
+
+#artists, #albums {
+    font-family: "Poppins";
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#popularArtist h1 {
+    font-family: "Poppins";
+    font-weight: 800;
+    margin-left: 30px;
+}
+
+.artistCase, .albumCase {
+    width: 16%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainSection img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#albums img {
+    margin-top: 10px;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 5%;
+    object-fit: cover;
+}
